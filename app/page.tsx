@@ -6,7 +6,7 @@ import CovertedImage from "./components/CovertedImage";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative ">
       <div>
         <h1 className="text-center text-[40px] font-bold mt-5 text-blue-500">
           BackdropBlaster
@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <Buttons />
       <PopUp />
-      <div className="border flex gap-10 flex-col items-center p-5">
+      <div className="flex gap-10 flex-col items-center p-5">
         <UploadedImage />
         <CovertedImage />
       </div>
